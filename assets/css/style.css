@@ -1,0 +1,95 @@
+.jumbotron {
+    background-color: grey;
+    color: white;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.urlImg { 
+	width: 620px;
+ 	height: 400px; 
+ 	src: '../../images/images.jpg';
+ 	background-image: url('../../images/images.jpg');
+ 	background-size: cover;
+ 	background-position: center;
+ }
+
+.urlImg:hover { 
+	width: 620px;
+ 	height: 400px; 
+ 	src: '../../images/popularStates.jpg';
+	background-image: url('../../images/popularStates.jpg'); 
+	background-size: cover;
+ 	background-position: center;
+} 
+
+#text-center{
+    font-family: "Times";
+    font-size: 20px;
+}
+
+h1{
+    padding: 20px;
+}
+
+.active{
+    margin-bottom: 5px;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td, th, tr {
+	clear: both;
+	height: 100%;
+	border: 2px;
+	padding: 2px;
+	width: 25%;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+.url {
+	width: 200px;
+	height: 200px;
+}
+
+body {
+	background-image: url('../../images/places.jpg');
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+}
+@media screen and (max-width: 980px){
+  body{
+    background-color: orange;
+  }
+}
+@media screen and (max-width: 768px){
+  body {
+  background-color: purple;
+}
+  
+}
+@media screen and (max-width: 640px){
+    body{
+        background-color: yellow;
+    }
+}
