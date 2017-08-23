@@ -1,1 +1,2 @@
 # travel
+An app where you can discover how long of a drive it is to your favorite destination. As well as find things to do there, including ways to save money on those adventures at your new destination.
